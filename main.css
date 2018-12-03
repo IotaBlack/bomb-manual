@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+}
+
+#Button {
+    display: grid;
+    grid-template-columns: repeat(14,1fr);
+}
+
+
+#Button > div {
+    float: left;
+    border: 2px solid black;
+    background-size: contain;
+    padding-bottom: calc(100% - 4px);
+}
+
+#ButtonName {
+    display: grid;
+    grid-template-columns: repeat(14,1fr);
+}
+
+#ButtonName > div {
+    border: 2px solid black;
+    height: 60px;
+    overflow: hidden;
+}
+
+#ButtonContainer {
+    background: aqua;
+    display: table-row;
+}
+
+#module {
+    background-color: red;
+    height: 100%;
+    position: relative;
+    overflow: auto;
+}
+
+.wrapper {
+    height: 100vh;
+    background: green;
+    width: 100%;
+    display: table;
+}
+
+.module-area {
+    display: table-row;
+    height: 100%;
+}
+
+
+.keypad-symbol-image {
+    height: 20%;
+}
+
+
+
+.keypad-table-column {
+    border: 1px solid #222;
+}
+
+.keypad-table-spacer {
+    padding: .3em .6em .2em;
+}
+
+
+
+.whos-on-first-step1-table td table td {
+    font-size: 1em;
+    height: 1.5em;
+    width: 50%;
+    padding: 0;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.whos-on-first-look-at-display {
+    background-color: black;
+    color: white;
+}
+
+.whos-on-first-step1-table th, .whos-on-first-step1-table td {
+    font-size: 0.9em;
+    width: 6.5em;
+    padding: 0.45em 0.45em .7em .7em;
+}
+
+.maze {
+    height: 250px;
+}
+
+#Module\.Knobs > table th td {
+    border: 1px solid #222;
+    min-width: 1em;
+    text-align: center;
+}

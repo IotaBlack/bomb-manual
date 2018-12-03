@@ -1,0 +1,47 @@
+#MODULES
+    Wires               .5
+    The button          .6
+    Keypads             .7
+    Simon says          .8
+    Who's on first      .9
+    Memory              .11
+    Morse code          .12
+    Complicated wires   .13
+    Wire sequences      .14
+    Mazes               .15
+    Passwords           .16
+
+
+#NEEDY MODULES
+    Venting gas         .18
+    Capacitor discharge .19
+    Knobs               .20
+
+
+#OTHER
+    Indicators          .21
+    Batteries           .22
+    Port idetification  .23
+
+
+
+
+
+
+Wires
+The button
+Keypads
+Simon says
+Who's on first
+Memory
+Morse code
+Complicated wires
+Wire sequences
+Mazes
+Passwords
+Venting gas
+Capacitor discharge
+Knobs
+
+
+
